@@ -1,0 +1,32 @@
+{
+  "name": "opxcore/log-null",
+  "description": "The OpxCore null logger.",
+  "homepage": "https://opxcore.com",
+  "type": "library",
+  "keywords": [
+    "opxcore",
+    "log"
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/opxcore/log-null",
+    "issues": "https://github.com/opxcore/log-null/issues"
+  },
+  "authors": [
+    {
+      "name": "Lozovoy Vyacheslav",
+      "email": "opxcore@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "opxcore/log-interface": "^1.0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpxCore\\Log\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
